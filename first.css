@@ -1,0 +1,23 @@
+#logo {
+    width: 75px;
+}
+
+img {
+    width: 500px;
+}
+
+h1, a {
+    color: olive;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    color: teal;
+}
+
+.web {
+    width: 500px;
+}
