@@ -16,14 +16,22 @@
         <a href="contact.html">Contact Me</a>
     </nav>
 
-    <h1>Contact Me:</h1>
-    <form class="container">
-        <label for="to" required>To:</label>  
-        <input type="text" placeholder="Name" name="name"> 
-        <label for="email" required>Email:</label>
-        <input type="text" placeholder="Email" name="email">
-        <label for="message">Enter Message:</label>
-        <textarea name="message" id="message" rows="10" cols="30" min="5" max="300" ></textarea>
-        <button type="send">Send</button>
+    
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h1>Contact Me:</h1>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="88b79d25-8d44-4e3f-8b7a-fefe71b4216a">
+            <input type="text" name="name" placeholder="Your Name:" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email:" class="contact-inputs" required>
+            <textarea name="message" id="" placeholder="Your Message" class="contact-inputs"></textarea>
+            <button type="submit">Submit<img src="assets/arrow_icon.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="assets/right_img.png" alt="">
+        </div>
+    </div>
 </body>
 </html>
