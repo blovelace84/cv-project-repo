@@ -85,6 +85,29 @@ body{
     width: 500px;
 }
 
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: linear-gradient(270deg, #ff994f, #fa6d86 );
+    color: white;
+}
+
+.navbar a{
+    margin: 10px auto;
+    display: flex;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    background-color: cadetblue;
+}
+
+
 @media (max-width: 800px) {
     .contact-inputs{
         width: 80vw;
